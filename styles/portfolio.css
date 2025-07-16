@@ -179,6 +179,7 @@ footer input[type=text], footer input[type=email], footer textarea{
     border: none;
 }
 
+
 /* Responsive media query */
 .hide{
     display: none;
@@ -188,8 +189,29 @@ footer input[type=text], footer input[type=email], footer textarea{
     .skills-container,
      .resume-container,
      footer, 
+     .bannar,
+     nav,
+     nav > ul,
      .about-items{
         flex-direction: column;
+    }
+
+    nav> ul{
+        gap: 20px;
+    }
+
+    .bannar{
+        margin: 20px;
+    }
+    .btn-primary{
+        margin-bottom: 20px;
+    }
+    .bannar-profile-pic{
+        width: 100%;
+    }
+    
+    .header{
+        background-image: none;
     }
     footer,
     .about{
